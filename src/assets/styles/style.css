@@ -1,0 +1,25 @@
+#header{
+  margin:0px;
+  height: 40px;
+  background-color: #333;
+}
+
+#titre{
+  margin:0px;
+  height: 40px;
+  margin-left: 15%;
+  margin-right: 80%; 
+  color: antiquewhite;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(247,163,86,1) 0%, rgba(246,123,12,1) 100%);
+}
+
+#nav{
+  margin:0px;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(246,123,12,1) 0%, rgba(247,163,86,1) 100%); 
+}
+
+#pages{
+  color: antiquewhite;
+}

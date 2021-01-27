@@ -1,8 +1,10 @@
 <template>
-  <h1>C3B3</h1>
-  <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/films">Films</router-link>
+  <div id="header">
+    <h1 id="titre">C3B3</h1>
+    <div id="nav">
+        <router-link to="/" id="pages">Home</router-link> |
+        <router-link to="/films" id="pages">Films</router-link>
+    </div>
   </div>
   <router-view />
 </template>
