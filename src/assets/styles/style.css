@@ -14,15 +14,6 @@
   display: inline-block;
 }
 
-#slogan-div{
-  display: inline-block;
-}
-
-#slogan{
-  
-  color: antiquewhite;
-}
-
 #nav{
   background: rgb(2,0,36);
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(246,123,12,1) 0%, rgba(247,163,86,1) 100%); 
