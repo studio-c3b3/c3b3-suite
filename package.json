@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
     "express": "^4.17.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.3"
