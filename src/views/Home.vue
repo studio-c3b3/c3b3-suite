@@ -1,3 +1,3 @@
 <template>
-  <h1 id="page">Son-mai</h1>
+  <h1 class="page">Son-mai</h1>
 </template>
