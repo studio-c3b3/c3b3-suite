@@ -1,24 +1,23 @@
 # c3b3-suite
-
-## Project setup
+Le but de c3b3-suite est d'avoir un petit logiciel avec des features cool en auto-hébergement à l'instar d'une PirateBox
+## Comment lancer le projet
 ```
 npm install
+npm start
 ```
 
-### Compiles and hot-reloads for development
+### Lancer uniquement Vue ou Express
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm start:vue  # Lance le front
+npm start:back # Lance le back
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Module
+- [ ] Système de vidéos
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Comment est organiser le projet
+Le projet se base sur deux gros framework : Express et VueJS (v3).
+Dans src/, il y a un tout le projet front et dans backend/ il y a tout le projet back.
+
+## Quels règles pour se projet ?
+Actuellement il n'y a pas de linter pour le projet mais il sera mit en place dans un futur proche, tout comme la JSDoc et les tests unitaires.
