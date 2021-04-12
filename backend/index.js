@@ -2,9 +2,11 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const cors = require("cors");
+const fileUpload = require('express-fileupload');
 
-//const corsOptions = {origin: "http://localhost:8080"};
-  
+const port = 3000
+
+app.use(fileUpload())
 app.use(cors());
   
 const moviesRouter = require('./routes/movies')

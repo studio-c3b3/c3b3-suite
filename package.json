@@ -20,6 +20,7 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.6.1",
     "sqlite3": "^5.0.2",
+    "express-fileupload": "^1.2.1",
     "style-loader": "^2.0.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.3"
