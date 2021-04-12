@@ -4,11 +4,9 @@ const port = 3000;
 const cors = require("cors");
 const fileUpload = require('express-fileupload');
 
-const port = 3000
-
 app.use(fileUpload())
 app.use(cors());
-  
+
 const moviesRouter = require('./routes/movies')
 
 app.get('/', (req, res) => {
