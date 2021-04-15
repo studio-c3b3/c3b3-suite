@@ -8,12 +8,12 @@
 
   <div>
     <ul>
-      <li v-for="movie, index in movies" :key="index">{{movie.title}}</li>
+      <li v-for="movie, index in movies" :key="index" v-on:click="selectMovie(movie)">{{movie.title}}</li>
     </ul>
   </div>
 
-  <div>
-    <PresentationFilm title="Hunger Games" image = "hungerGames"/>
+  <div v-if="selectedMovie != null">
+    <PresentationFilm :title="selectedMovie.title" :image="selectedMovie.image" :director="selectedMovie.director"/>
   </div>
 
 </template>
@@ -30,6 +30,7 @@ export default {
 
   data() {
     return {
+      selectedMovie: null,
       movies: null
     }
   },
@@ -39,6 +40,11 @@ export default {
         console.log(response);
         this.movies = response.data
         });
+    },
+
+    selectMovie(movie){
+      this.selectedMovie = movie
+      console.log(this.selectedMovie)
     }
   },
   created(){
