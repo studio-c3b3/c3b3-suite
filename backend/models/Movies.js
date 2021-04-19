@@ -16,7 +16,7 @@ module.exports = class Movies {
             new this({
                 title: 'Hunger Games',
                 director: 'Gary Ross',
-                image = 'hungerGames.jpg'
+                image: 'hungerGames.jpg',
             })
         ]
     }
