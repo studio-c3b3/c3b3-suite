@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start:vue": "vue-cli-service serve",
-    "start:back": "node backend/index.js",
+    "start:back": "nodemon backend/index.js",
     "start": "concurrently -n vue,back 'npm:start:vue' 'npm:start:back'",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -15,13 +15,15 @@
     "cors": "^2.8.5",
     "css-loader": "^5.0.1",
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
     "js-cookie": "^2.2.1",
+    "nodemon": "^2.0.7",
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.6.1",
     "sqlite3": "^5.0.2",
-    "express-fileupload": "^1.2.1",
     "style-loader": "^2.0.0",
+    "uuid": "^8.3.2",
     "vue": "^3.0.0",
     "vue-router": "^4.0.3"
   },
