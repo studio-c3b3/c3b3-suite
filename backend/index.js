@@ -13,6 +13,7 @@ app.use(fileUpload({
 }))
 app.use(cors());
 
+
 const moviesRouter = require('./routes/movies')
 
 app.get('/', (req, res) => {
