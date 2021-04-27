@@ -3,6 +3,8 @@ node_modules
 /dist
 /node_modules
 
+#Database 
+*.sqlite
 
 # local env files
 .env.local
